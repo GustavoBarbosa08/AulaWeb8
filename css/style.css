@@ -1,0 +1,49 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+
+#interacao{
+     font-size: 24px;
+     font-family: "Courier New", monospace;
+     margin: 20px 0 50px 500px;
+     background-color: rgba(195, 29, 29, 0.7);
+     border-radius: 5px;
+     border-color: transparent;
+}
+#interacao:hover{
+     background-color: rgba(234, 18, 18, 0.946);
+}
+
+#tabela{
+     width: 60%;
+    /*margin: 20px;*/
+     border-collapse: collapse;
+     border: 2px solid #000;
+     margin: auto;
+     text-align: left;
+     background-color: rgba(122, 82, 82, 0.6);
+     box-shadow: 0 0 80px rgba(255, 255, 255, 0.8);
+     font-size: 24px;
+     backdrop-filter: blur(6px);
+}
+#tabela thead tr{
+     background-color: rgba(65, 36, 36, 0.8);
+}
+#tabela th:hover, #tabela td:hover{
+     background-color: rgba(222, 206, 198, 0.505);
+}
+/*#tabela tr:hover{
+     background-color: rgba(222, 206, 198, 0.505);
+}*/
+
+#containerTabela{
+     display: flex;
+     align-items: center;
+}
+
+body{
+     background-image: url(../assets/slanted-gradient.svg);
+     background-size: cover;
+}
+
